@@ -29,7 +29,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert2
-    second: {fileID: 2100000, guid: efb0bb4cc7283b540a98a3f6c1d76323, type: 2}
+    second: {fileID: 2100000, guid: f6ff9b975938eaa40936c461d77491f5, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -87,8 +87,8 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 0
-    normalImportMode: 1
-    tangentImportMode: 3
+    normalImportMode: 0
+    tangentImportMode: 2
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
