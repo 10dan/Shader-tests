@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HelloShader
-  m_Shader: {fileID: 4800000, guid: 3d960947f6287bf48b05b91d403de6de, type: 3}
+  m_Shader: {fileID: 4800000, guid: baf169eec98acfc42989c150c13984b2, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myBump:
-        m_Texture: {fileID: 2800000, guid: 74608184bd7080c4ab6b7f577c8c9fbe, type: 3}
+        m_Texture: {fileID: 2800000, guid: c19858af433eaed44809cfc8459deda5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myCube:
@@ -73,6 +73,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _myTexEm:
         m_Texture: {fileID: 2800000, guid: 18290e851baaf5c49948db57a422970a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texture:
+        m_Texture: {fileID: 2800000, guid: 03469c0f9eaac7743824ccc8aa0a3028, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - environment:
@@ -92,6 +96,7 @@ Material:
     - _MySliderValue: 10
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _RimPower: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -102,11 +107,13 @@ Material:
     - _myRange: 1.38
     - _myRange2: 0.45
     - _myScale: 1
-    - _mySlider: 0.67
+    - _mySlider: 0.9
+    - _stripeSize: 100
     m_Colors:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 0}
     - _col: {r: 0.7735849, g: 0.5197731, b: 0, a: 1}
     - _emission: {r: 0.5471698, g: 0, b: 0.46188664, a: 1}
     - _myColor: {r: 1, g: 1, b: 1, a: 1}
