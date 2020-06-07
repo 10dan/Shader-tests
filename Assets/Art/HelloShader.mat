@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HelloShader
-  m_Shader: {fileID: 4800000, guid: baf169eec98acfc42989c150c13984b2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 79ff2abd36315894db6eb78ac9a10810, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -47,12 +47,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MetallicTex:
+        m_Texture: {fileID: 2800000, guid: e1e1bfe4185eb9f45813f46b78c3dc45, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: 01674f8694b668445b54585c4eaddd15, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myBump:
@@ -88,16 +96,19 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Emiss: 0.1
+    - _Gloss: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 0.665
     - _Mode: 0
     - _MySliderValue: 10
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimPower: 0.5
+    - _RimPower: 2.4
     - _SmoothnessTextureChannel: 0
+    - _Spec: 0.061
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
@@ -108,12 +119,13 @@ Material:
     - _myRange2: 0.45
     - _myScale: 1
     - _mySlider: 0.9
-    - _stripeSize: 100
+    - _stripeSize: 2
     m_Colors:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.5660378, g: 0.42399433, b: 0.21092917, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SpecColor: {r: 0.5566038, g: 0, b: 0.3223365, a: 1}
     - _col: {r: 0.7735849, g: 0.5197731, b: 0, a: 1}
     - _emission: {r: 0.5471698, g: 0, b: 0.46188664, a: 1}
     - _myColor: {r: 1, g: 1, b: 1, a: 1}
